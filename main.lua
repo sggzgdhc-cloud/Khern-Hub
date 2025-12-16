@@ -1,2 +1,3 @@
 repeat task.wait() until game:IsLoaded()
-print("KhernHub Loaded")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sggzdhc-cloud/Khern-Hub/main/UI.lua"))()
